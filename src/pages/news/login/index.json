@@ -1,0 +1,11 @@
+{
+    "status": 200,
+    "data": {
+        "uid": "easybui",
+        "integral": 100,
+        "username": "easybui",
+        "token": "abcdeaeafdsafdsafsa",
+        "name": "王小o",
+        "image": "http://www.easybui.com/demo/images/face.png"
+    }
+}

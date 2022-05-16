@@ -1,0 +1,9 @@
+{
+    "status": 200,
+    "data": {
+        "uid": "easybui",
+        "name": "easybui",
+        "image": "images/img.svg",
+        "integral": 1000
+    }
+}

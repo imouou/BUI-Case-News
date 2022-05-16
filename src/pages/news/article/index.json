@@ -1,0 +1,14 @@
+{
+    "status":200,
+    "data":{
+        "id":123,
+        "title":"BUI 是一个更快的UI开发框架",
+        "author":"easybui",
+        "images":["images/img.svg","images/img.svg","images/img.svg"],
+        "detail":"BUI 是一个更快的UI开发框架，专注Webapp快速开发，完美嵌入各平台或打包，媲美APP体验。",
+        "content":"<p>BUI 是一个更快的UI开发框架，专注Webapp快速开发，完美嵌入各平台或打包，媲美APP体验。</p> <h3>特点优势</h3> <ul> <li>开箱即用</li> <li>零配置路由</li> <li>完美还原界面</li> <li>跨平台适配</li> <li>轻量化</li> <li>高性能</li> <li>按需加载</li> <li>一次性加载</li> <li>单页开发（SPA）媲美原生的交互效果</li> <li>多页开发（MPA）</li> <li>模块化开发</li> <li>组件化开发</li> <li>数据驱动开发</li> <li>DOM开发</li> <li>jQuery开发</li> <li>ES6开发</li> <li>支持less</li> </ul>",
+        "date":"2022-03-24",
+        "comment":"42",
+        "read":"142"
+    }
+}

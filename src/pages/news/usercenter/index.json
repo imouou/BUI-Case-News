@@ -1,0 +1,25 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "name": "下载当前案例",
+            "image": "images/img.svg",
+            "url": "http://www.easybui.com/products/158.html"
+        },
+        {
+            "name": "下载单页开发工程",
+            "image": "images/img.svg",
+            "url": "http://www.easybui.com/products/110.html"
+        },
+        {
+            "name": "下载控件示例工程",
+            "image": "images/img.svg",
+            "url": "http://www.easybui.com/products/139.html"
+        },
+        {
+            "name": "版本更新",
+            "image": "images/img.svg",
+            "url": "main"
+        }
+    ]
+}

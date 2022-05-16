@@ -1,0 +1,53 @@
+<style type="text/css">
+    @import url("#module.path/index.css");
+
+    .login-page main {
+        background: #fff url("#module.path/images/login-bg.png") center bottom no-repeat;
+        background-size: 100% auto;
+    }
+</style>
+<div class="bui-page bui-box-vertical login-page">
+    <main>
+        <div class="logo bui-box-center">
+            <img src="#module.path/images/applogo.png" alt="">
+            <h1>BUI</h1>
+        </div>
+        <div class="login-form">
+            <ul class="bui-list">
+                <li class="bui-btn bui-box clearactive">
+                    <label class="bui-label"><i class="icon-face"></i></label>
+                    <div class="span1">
+                        <div class="bui-input user-input">
+                            <input type="text" name="username" placeholder="用户名" b-model="login.userinfo.username"
+                                b-blur="login.check" rule="^\w{3,10}" tip="用户名必需以英文字母开头，且长度在3-10之间">
+                            <i class="icon-remove" b-show="login.userinfo.username"
+                                b-click="login.clear('userinfo.username')"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="bui-btn bui-box clearactive">
+                    <label class="bui-label"><i class="icon-lock"></i></label>
+                    <div class="span1">
+                        <div class="bui-input password-input">
+                            <input type="password" name="password" b-type="login.passtype" placeholder="密码"
+                                b-model="login.userinfo.password" b-blur="login.check"
+                                rule="^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,20}$" tip="密码由6-20位字母+数字组成">
+                            <i class="icon-eye" b-show="login.userinfo.password" b-click="login.changetype()"></i>
+                            <i class="icon-remove" b-show="login.userinfo.password"
+                                b-click="login.clear('userinfo.password')"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="bui-btn bui-box clearactive">
+                    <label><input type="checkbox" class="bui-choose" b-model="login.userinfo.remember">记住密码</label>
+                    <div class="span1"></div>
+                    <label><input type="checkbox" class="bui-choose" b-model="login.userinfo.auto">自动登录</label>
+                </li>
+            </ul>
+
+            <div class="bui-btn round primary" b-click="login.sign">登录</div>
+            <!-- <div class="bui-btn-text" href="pages/register/register.html">注册</div> -->
+
+        </div>
+    </main>
+</div>

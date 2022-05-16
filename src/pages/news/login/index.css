@@ -1,0 +1,57 @@
+.login-page .logo h1 {
+  font-size: 0.82rem;
+  padding-left: 0.3rem;
+}
+.login-page .logo {
+  height: 2rem;
+  margin: 0.3rem auto;
+  text-align: center;
+}
+.login-page .logo img {
+  height: 1rem;
+}
+.login-page .login-form {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+.login-page .login-form .bui-list {
+  border-top: none;
+  margin-bottom: 0.7rem;
+}
+.login-page .login-form > .bui-btn {
+  margin-bottom: 0.3rem;
+}
+.login-page .login-form .bui-btn-text {
+  margin-bottom: 0.2rem;
+}
+.login-page .login-form .bui-label {
+  width: 0.5rem;
+  margin-right: 0.2rem;
+}
+.login-page .login-form .icon-face,
+.login-page .login-form .icon-lock {
+  font-size: 0.48rem;
+}
+.login-page .login-form .bui-input {
+  height: 0.6rem;
+  background: none;
+}
+.login-page .login-form .bui-btn-text {
+  text-align: center;
+  color: #666666;
+  font-size: 0.2rem;
+}
+.login-page .copyright {
+  font-size: 0.17rem;
+  color: #999999;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  padding-bottom: 0.25rem;
+}
+.login-page .icon-eye:before {
+  content: "\e680";
+}
+.login-page .icon-eye.active:before {
+  content: "\e67f";
+}

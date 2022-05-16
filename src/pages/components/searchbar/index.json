@@ -1,0 +1,31 @@
+{
+    "status":200,
+    "data":[{
+        "name": "图标1",
+        "icon": "icon-home",
+        "iconbg": "primary",
+        "dot": false,
+        "arrow": false,
+        "image": "",
+        "badges": 1,
+        "url": "main"
+    },{
+        "name": "图标2",
+        "icon": "icon-menu",
+        "iconbg": "success",
+        "dot": true,
+        "arrow": true,
+        "image": "",
+        "badges": 0,
+        "url": "main"
+    },{
+        "name": "图标3",
+        "icon": "icon-search",
+        "iconbg": "warning",
+        "dot": false,
+        "arrow": true,
+        "image": "",
+        "badges": 0,
+        "url": "main"
+    }]
+}
